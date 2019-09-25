@@ -1,7 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	background-color:darkslategray;
+	background-image:url(file:///Users/Mnex/Desktop/Fall%202019%20College/CSIS%201430/background.jpg);
+		url(https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/69484818_1131079417102513_8075945616485646336_o.jpg?_nc_cat=103&_nc_oc=AQnN47hTdola6wwkeInEX7r9Kj3r1OYYs2aa3WIQX7UqAENjgCW-tmC8VHEjv6QDWNQ&_nc_ht=scontent-lax3-1.xx&oh=c97200140db07e8fbd4ea2f5bde67bd2&oe=5E337863);
+	url(https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/69484818_1131079417102513_8075945616485646336_o.jpg?_nc_cat=103&_nc_oc=AQnN47hTdola6wwkeInEX7r9Kj3r1OYYs2aa3WIQX7UqAENjgCW-tmC8VHEjv6QDWNQ&_nc_ht=scontent-lax3-1.xx&oh=c97200140db07e8fbd4ea2f5bde67bd2&oe=5E337863 (2)
+	background-color:lightskyblue;
 	font-size: 10pt;
 	font-familly: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color:black;
@@ -9,6 +12,17 @@ body {
 	padding-left: 5pt;
 	padding-right: 5pt;
 	padding-top: 5pt;
+	
+	
+	/*
+========================================
+     Custom styles
+     ========================================
+   */
+	
+	color: aquamarine;
+	font: 300 16px/22px "Open Sans", "Helvetica neue", Helvetica,
+		Ariel, sans-serif;
 	}
 
 h1 {
@@ -97,8 +111,8 @@ Grid
 *,
 *: before,
 *:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+	webkit-box-sizing: border-box;
+	moz-box-sizing: border-box;
 	box-sizing:border-box;
 }
 
@@ -151,6 +165,93 @@ Home
 .home {
 	padding: 22px 80px 66px 80px;
 }
+
+
+h1, h2, h3, h4 {
+	color: red;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 44px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 44px;
+}
+h3 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	color: yellow;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+strong {
+	font-weight: 400;
+}
+cite, em {
+	font-style: italic;
+}
+
+.primary-nav {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+.primary-footer {
+	color: #648878;
+	font-size: 14px;
+	padding-bottom: 44px;
+	padding-top: 44px;
+}
+
+.primary footer small {
+	float: left;
+	font-weight: 400;
+}
+
+.section {
+	line-height: 44px;
+	padding: 22px 80px 66px 80px;
+	text-align: center;
+}
+
+
+body {
+	color: brown;
+	font: 200 16px/22px "Arimo", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.row,
+.row-alt {
+	min-width: 960px;
+}
+.row {
+	background: #fff;
+	padding: 66px 0 44px 0;
+}
+.row-alt {
+	background: #cbe2c1;
+	background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+	background: -mox-liner-gradient(to right, #a1d3b0, #f6f1d3);
+	background: liner-gradient(to right, #a1b3b0, #f6f1d3);
+	padding: 44px 0 22px 0;
+}
+
+
+
+
+
 
 
 
