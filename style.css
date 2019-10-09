@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	background-image:url(file:///Users/Mnex/Desktop/Fall%202019%20College/CSIS%201430/background.jpg);
-		url(https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/69484818_1131079417102513_8075945616485646336_o.jpg?_nc_cat=103&_nc_oc=AQnN47hTdola6wwkeInEX7r9Kj3r1OYYs2aa3WIQX7UqAENjgCW-tmC8VHEjv6QDWNQ&_nc_ht=scontent-lax3-1.xx&oh=c97200140db07e8fbd4ea2f5bde67bd2&oe=5E337863);
-	url(https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/69484818_1131079417102513_8075945616485646336_o.jpg?_nc_cat=103&_nc_oc=AQnN47hTdola6wwkeInEX7r9Kj3r1OYYs2aa3WIQX7UqAENjgCW-tmC8VHEjv6QDWNQ&_nc_ht=scontent-lax3-1.xx&oh=c97200140db07e8fbd4ea2f5bde67bd2&oe=5E337863 (2)
+	background: url("computer.jpg") 0 0 no-repeat;
+				url(https://blogs.lse.ac.uk/management/files/2016/11/technology-785742_1920.jpg) 0 0 no-repeat;
+				url("background.png") 0 0 no-repeat;
 	background-color:lightskyblue;
 	font-size: 10pt;
 	font-familly: Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -248,23 +248,161 @@ body {
 	padding: 44px 0 22px 0;
 }
 
+/*
+========================================
+portfolio/ placeImages
+========================================
+*/
+
+.placeImages{
+height: auto;
+}
+.placeImages li{
+display: inline-block;
+margin: 0 10px;
+vertical-align: top;
+}
+.placeImages img {
+display: inline; 
+width:100px; 
+border:none;
+border-width:5px;
+padding:10px;
+border-radius:17px; 
+float:none;
+}
+.placeImages img:hover{
+display: inline; 
+width:220px;
+border:none;
+border-width:2px;
+padding:10px;
+border-radius:17px; 
+}
+
+.coolVids .cooltunes .placeImages {
+	height: auto;
+}
 
 
+/*
+ ======================================== 
+ Message form 
+ ======================================== 
+ */ 
+ 
+ .why-contact { 
+ list-style: square; 
+ margin: 0 0 22px 30px; 
+ }
+
+ form { 
+ margin-bottom: 22px; 
+ } 
+ input, 
+ select, 
+ textarea { 
+ font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", 
+Helvetica, Arial, sans-serif; 
+ }
+
+.form-group label { 
+ color: #648880; 
+ cursor: pointer; 
+ font-weight: 400; 
+ } 
+ . form-group input, 
+ . form-group select, 
+ . form-group textarea { 
+ border: 1px solid #c6c9cc; 
+ border-radius: 5px; 
+ color: #888; 
+ display: block; 
+ margin: 5px 0 27px 0; 
+ padding: 5px 8px; 
+ } 
+ . form-group input, 
+ . form-group textarea { 
+ width: 100%; 
+ } 
+ . form-group select { 
+ height: 34px; 
+ width: 60px; 
+ } 
+ . form-group textarea { 
+ height: 78px; 
+ }
+
+ .btn-default { 
+ border: 0; 
+ background: #648880; 
+ padding: 11px 30px; 
+ font-size: 14px; 
+ } 
+ .btn-default:hover { 
+ background: #77a198; 
+ }
 
 
+ /* 
+ ======================================== 
+ Family 
+ ======================================== 
+ */ 
+ 
+ table { 
+ margin-bottom: 44px; 
+ width: 100%; 
+ } 
+ table:last-child { 
+ margin-bottom: 0; 
+ }
 
+ th, td { 
+ padding-bottom: 22px; 
+ vertical-align: top; 
+ } 
+ th { 
+ padding-right: 45px; 
+ text-align: right; 
+ width: 30%; 
+ } 
+ td { 
+ width: 40%; 
+ }
 
+ thead { 
+ line-height: 44px; 
+ } 
+ thead th { 
+ color: #648880; 
+ font-size: 24px; 
+ }
 
+tbody th { 
+ color: #a9b2b9; 
+ font-size: 14px; 
+ font-weight: 400; 
+ padding-top: 22px; 
+ text-transform: uppercase; 
+ }
 
+ tbody td { 
+ border-top: 1px solid #dfe2e5; 
+ padding-top: 21px; 
+ } 
+ tbody td:first-of-type { 
+ padding-right: 15px; 
+ } 
+ tbody td:last-of-type { 
+ padding-left: 15px; 
+ } 
+ tbody td:only-of-type { 
+ padding-left: 0; 
+ padding-right: 0; 
+ }
 
-
-
-
-
-
-
-
-
-
-
+tbody tr:nth-child(even){ 
+ color: #a9b2b9; 
+ }
 
